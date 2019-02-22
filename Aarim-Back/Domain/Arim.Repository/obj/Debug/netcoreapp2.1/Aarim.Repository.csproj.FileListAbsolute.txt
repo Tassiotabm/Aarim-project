@@ -1,0 +1,16 @@
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\bin\Debug\netcoreapp2.1\Aarim.Repository.deps.json
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\bin\Debug\netcoreapp2.1\Aarim.Repository.runtimeconfig.json
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\bin\Debug\netcoreapp2.1\Aarim.Repository.runtimeconfig.dev.json
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\bin\Debug\netcoreapp2.1\Aarim.Repository.dll
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\bin\Debug\netcoreapp2.1\Aarim.Repository.pdb
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\bin\Debug\netcoreapp2.1\Aarim.Data.dll
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\bin\Debug\netcoreapp2.1\Aarim.Models.dll
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\bin\Debug\netcoreapp2.1\Aarim.Data.pdb
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\bin\Debug\netcoreapp2.1\Aarim.Models.pdb
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\obj\Debug\netcoreapp2.1\Aarim.Repository.csprojAssemblyReference.cache
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\obj\Debug\netcoreapp2.1\Aarim.Repository.csproj.CoreCompileInputs.cache
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\obj\Debug\netcoreapp2.1\Aarim.Repository.AssemblyInfoInputs.cache
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\obj\Debug\netcoreapp2.1\Aarim.Repository.AssemblyInfo.cs
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\obj\Debug\netcoreapp2.1\Aarim.Repository.csproj.CopyComplete
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\obj\Debug\netcoreapp2.1\Aarim.Repository.dll
+C:\Users\tassi\work\Aarim-project\Aarim-Back\Domain\Arim.Repository\obj\Debug\netcoreapp2.1\Aarim.Repository.pdb
