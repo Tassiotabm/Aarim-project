@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aarim.Back", "Aarim-Back\Aarim.Back.csproj", "{23037218-2E9C-4BAB-9831-89D8B46C5E2B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8FC0C32B-BFB3-4998-BA0E-CA29E753D9AA} = {8FC0C32B-BFB3-4998-BA0E-CA29E753D9AA}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aarim.Models", "Aarim-Models\Aarim.Models.csproj", "{66A39BAB-87CF-469D-BDDA-B1F79A4EB1A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aarim.Data", "Aarim-Data\Aarim.Data.csproj", "{7EB1933C-13B4-43E0-BECF-4EC741A0E1FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8D554115-8984-407A-ACBF-C6813987FBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aarim.Services", "Aarim.Services\Aarim.Services.csproj", "{17515087-66CF-4558-80B6-991729C17946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aarim.Migrations", "Aarim.Migrations\Aarim.Migrations.csproj", "{8FC0C32B-BFB3-4998-BA0E-CA29E753D9AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7EB1933C-13B4-43E0-BECF-4EC741A0E1FA} = {7EB1933C-13B4-43E0-BECF-4EC741A0E1FA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23037218-2E9C-4BAB-9831-89D8B46C5E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23037218-2E9C-4BAB-9831-89D8B46C5E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23037218-2E9C-4BAB-9831-89D8B46C5E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23037218-2E9C-4BAB-9831-89D8B46C5E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A39BAB-87CF-469D-BDDA-B1F79A4EB1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A39BAB-87CF-469D-BDDA-B1F79A4EB1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A39BAB-87CF-469D-BDDA-B1F79A4EB1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A39BAB-87CF-469D-BDDA-B1F79A4EB1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB1933C-13B4-43E0-BECF-4EC741A0E1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB1933C-13B4-43E0-BECF-4EC741A0E1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB1933C-13B4-43E0-BECF-4EC741A0E1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB1933C-13B4-43E0-BECF-4EC741A0E1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17515087-66CF-4558-80B6-991729C17946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17515087-66CF-4558-80B6-991729C17946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17515087-66CF-4558-80B6-991729C17946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17515087-66CF-4558-80B6-991729C17946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC0C32B-BFB3-4998-BA0E-CA29E753D9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC0C32B-BFB3-4998-BA0E-CA29E753D9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC0C32B-BFB3-4998-BA0E-CA29E753D9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC0C32B-BFB3-4998-BA0E-CA29E753D9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66A39BAB-87CF-469D-BDDA-B1F79A4EB1A2} = {8D554115-8984-407A-ACBF-C6813987FBE1}
+		{7EB1933C-13B4-43E0-BECF-4EC741A0E1FA} = {8D554115-8984-407A-ACBF-C6813987FBE1}
+		{17515087-66CF-4558-80B6-991729C17946} = {8D554115-8984-407A-ACBF-C6813987FBE1}
+		{8FC0C32B-BFB3-4998-BA0E-CA29E753D9AA} = {8D554115-8984-407A-ACBF-C6813987FBE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A6920FB-DB97-4948-A0DC-AB3C19DC3C07}
+	EndGlobalSection
+EndGlobal
