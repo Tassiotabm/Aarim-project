@@ -20,3 +20,5 @@ C:\Users\tassi\work\Aarim-project\Aarim-Back\AarimApi\obj\Debug\netcoreapp2.1\Aa
 C:\Users\tassi\work\Aarim-project\Aarim-Back\AarimApi\obj\Debug\netcoreapp2.1\AarimApi.csproj.CopyComplete
 C:\Users\tassi\work\Aarim-project\Aarim-Back\AarimApi\obj\Debug\netcoreapp2.1\AarimApi.dll
 C:\Users\tassi\work\Aarim-project\Aarim-Back\AarimApi\obj\Debug\netcoreapp2.1\AarimApi.pdb
+C:\Users\tassi\work\Aarim-project\Aarim-Back\AarimApi\bin\Debug\netcoreapp2.1\Aarim.Services.dll
+C:\Users\tassi\work\Aarim-project\Aarim-Back\AarimApi\bin\Debug\netcoreapp2.1\Aarim.Services.pdb

@@ -3116,6 +3116,19 @@
         "runtime": {
           "bin/placeholder/Aarim.Models.dll": {}
         }
+      },
+      "Aarim.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Aarim.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Aarim.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aarim.Services.dll": {}
+        }
       }
     },
     ".NETCoreApp,Version=v2.1/win-x64": {
@@ -6312,6 +6325,19 @@
         },
         "runtime": {
           "bin/placeholder/Aarim.Models.dll": {}
+        }
+      },
+      "Aarim.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Aarim.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Aarim.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aarim.Services.dll": {}
         }
       }
     }
@@ -12471,12 +12497,18 @@
       "type": "project",
       "path": "../Domain/Aarim.Models/Aarim.Models.csproj",
       "msbuildProject": "../Domain/Aarim.Models/Aarim.Models.csproj"
+    },
+    "Aarim.Services/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Aarim.Services/Aarim.Services.csproj",
+      "msbuildProject": "../Domain/Aarim.Services/Aarim.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Aarim.Data >= 1.0.0",
       "Aarim.Migrations >= 1.0.0",
+      "Aarim.Services >= 1.0.0",
       "Microsoft.AspNetCore >= 2.2.0",
       "Microsoft.AspNetCore.HttpsPolicy >= 2.2.0",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
@@ -12523,6 +12555,9 @@
             },
             "C:\\Users\\tassi\\work\\Aarim-project\\Aarim-Back\\Domain\\Aarim.Migrations\\Aarim.Migrations.csproj": {
               "projectPath": "C:\\Users\\tassi\\work\\Aarim-project\\Aarim-Back\\Domain\\Aarim.Migrations\\Aarim.Migrations.csproj"
+            },
+            "C:\\Users\\tassi\\work\\Aarim-project\\Aarim-Back\\Domain\\Aarim.Services\\Aarim.Services.csproj": {
+              "projectPath": "C:\\Users\\tassi\\work\\Aarim-project\\Aarim-Back\\Domain\\Aarim.Services\\Aarim.Services.csproj"
             }
           }
         }

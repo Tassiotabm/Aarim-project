@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Aarim.Models;
+using Aarim.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -12,36 +14,25 @@ namespace Aarim.Back.Controllers
     [ApiController]
     public class CreditCardController : Controller
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        private readonly ICreditCardService _creditService;
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public CreditCardController(ICreditCardService creditService)
         {
-            return "value";
+            _creditService = creditService;
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task PostAsync([FromBody] CreditCard newCard)
         {
-        }
+            try
+            {
+                await _creditService.CreateCreditCard(newCard);
+            }
+            catch (Exception ex)
+            {
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            }
         }
     }
 }
